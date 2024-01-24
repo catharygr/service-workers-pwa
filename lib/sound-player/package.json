@@ -1,13 +1,13 @@
 {
-  "name": "timer",
+  "name": "sound-player",
   "version": "1.0.0",
-  "description": "Lit web component",
+  "description": "Web component sound",
   "main": "index.js",
   "author": "",
   "license": "ISC",
   "type": "module",
   "exports": {
-    ".": "./dist/index.js"
+    ".": "./index.js"
   },
   "scripts": {
     "build": "webpack --mode production",
