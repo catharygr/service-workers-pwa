@@ -1,5 +1,5 @@
 {
-  "name": "timer",
+  "name": "@bubulazi/timer",
   "version": "1.0.0",
   "description": "Lit web component",
   "main": "index.js",

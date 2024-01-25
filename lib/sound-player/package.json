@@ -1,5 +1,5 @@
 {
-  "name": "sound-player",
+  "name": "@bubulazi/sound-player",
   "version": "1.0.0",
   "description": "Web component sound",
   "main": "index.js",
