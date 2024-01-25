@@ -1,0 +1,36 @@
+{
+  "name": "service-workers-pwa",
+  "version": "1.0.0",
+  "description": "Service workers PWA",
+  "type": "module",
+  "module": "index.js",
+  "main": "dist/index.bundle.js",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "build": "webpack --mode production",
+    "build:dev": "webpack --mode development",
+    "start": "http-server -c-1 dist"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/plugin-transform-runtime": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "autoprefixer": "^10.1.0",
+    "babel-loader": "^8.2.2",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.3.0",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.6.0",
+    "http-server": "^14.1.1",
+    "lit": "^3.1.0",
+    "mini-css-extract-plugin": "^2.7.6",
+    "sass": "^1.69.5",
+    "sass-loader": "^13.3.2",
+    "standard": "17.1.0",
+    "style-loader": "^3.3.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.57.1",
+    "webpack-cli": "^4.9.8"
+  }
+}
