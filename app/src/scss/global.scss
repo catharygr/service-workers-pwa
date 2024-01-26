@@ -3,8 +3,8 @@
 @use './utilities/reset';
 @use 'sass:map';
 
-@import 'variables.css';
-@import 'colors.css';
+@import 'variables.scss';
+@import 'colors.scss';
 
 html {
   font-size: font-properties("size-global");

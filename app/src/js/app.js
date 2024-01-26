@@ -8,7 +8,6 @@ export class App extends LitElement {
   }
   render() {
     return html`
-      <h1>Hello World</h1>
       <timer-component
         shorttimer
         doubledigits
