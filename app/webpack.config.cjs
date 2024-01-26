@@ -5,7 +5,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 // Para separar el css en otro bundle
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 // Para copiar los archivos de la carpeta public a dist
-// const CopyPlugin = require("copy-webpack-plugin");
+const CopyPlugin = require("copy-webpack-plugin");
 
 module.exports = (env, argv) => ({
   // Documento de entrada
@@ -90,11 +90,11 @@ module.exports = (env, argv) => ({
       filename: "[name].css",
     }),
     //Se pone la configuración de copiar archivos
-    // new CopyPlugin({
-    //   patterns: [
-    //     // { from: "./src/image/pantallazo", to: "assets" },
-    //     // { from: "./sw.js", to: "./" },
-    //   ],
-    // }),
+    new CopyPlugin({
+      patterns: [
+        // { from: "./src/image/pantallazo", to: "assets" },
+        { from: "./sw.js", to: "./" },
+      ],
+    }),
   ],
 });
