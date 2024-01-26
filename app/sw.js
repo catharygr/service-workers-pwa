@@ -9,6 +9,7 @@ self.addEventListener("install", function (event) {
       cache.addAll([
         "/",
         "/index.html",
+        "/manifest.json",
         "/main.bundle.js",
         "/main.css",
         "/assets/TimerPWA-logos_transparent.png",
