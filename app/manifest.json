@@ -61,7 +61,7 @@
   "screenshots": [
     {
       "src": "/assets/screenshot-wide.png",
-      "sizes": "1786x",
+      "sizes": "616x1064",
       "type": "image/png",
       "form_factor": "wide",
       "label": "Wide screenshot"

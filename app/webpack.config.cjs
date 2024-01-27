@@ -92,7 +92,7 @@ module.exports = (env, argv) => ({
     //Se pone la configuración de copiar archivos
     new CopyPlugin({
       patterns: [
-        // { from: "./src/image/pantallazo", to: "assets" },
+        { from: "./src/images/icons/pantallazo", to: "assets" },
         { from: "./sw.js", to: "./" },
       ],
     }),
