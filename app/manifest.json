@@ -58,6 +58,22 @@
       "type": "image/png"
     }
   ],
+  "screenshots": [
+    {
+      "src": "/assets/screenshot-wide.png",
+      "sizes": "1786x",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Wide screenshot"
+    },
+    {
+      "src": "/assets/screenshot-narrow.png",
+      "sizes": "1786x1328",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Narrow screenshot"
+    }
+  ],
   "orientation": "portrait",
   "display": "standalone",
   "dir": "left",
