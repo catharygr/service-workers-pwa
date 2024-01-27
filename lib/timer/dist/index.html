@@ -1,1 +1,33 @@
-<!doctype html><html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>Web Component</title><script type="module" src="index.js"></script></head><body><timer-component shorttimer doubledigits btnpause btnplay btnreset reverse></timer-component></body></html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Component</title>
+  <script type="module" src="index.js"></script></head>
+  <body>
+    <!--
+      shorttimer     Sólo muestra minutos y segundos 
+      btnpause       Muestra el botón de pausa
+      btnplay        Muestra el botón de play
+      btnreset       Muestra el botón de reset
+      autostart      Inicia el contador automáticamente
+      autoreset      Reinicia el contador automáticamente
+      reverse        Cuenta atrás, se usa con start
+      start="86412"  Inicia el contador en un dia y doce segundos
+      limit="10"     Limita el contador a 10 segundos, se usa cuando reverse es false
+      doubledigits   Muestra los números con dos dígitos cuando es menor a 10
+    -->
+
+    <timer-component
+      shorttimer
+      doubledigits
+      btnpause
+      btnplay
+      btnreset
+      reverse
+    ></timer-component>
+
+    <!-- <script type="module" src="./index.js"></script> -->
+  </body>
+</html>
