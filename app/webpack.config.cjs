@@ -93,6 +93,7 @@ module.exports = (env, argv) => ({
     new CopyPlugin({
       patterns: [
         { from: "./src/images/icons/pantallazo", to: "assets" },
+        { from: "./src/sounds/fairy.mp3", to: "assets" },
         { from: "./sw.js", to: "./" },
       ],
     }),
