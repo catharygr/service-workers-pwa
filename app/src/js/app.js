@@ -1,6 +1,6 @@
 import { LitElement, html, css } from "lit";
-import TimerComponent from "../../node_modules/@bubulazi/timer/dist/index";
-import SoundComponent from "../../node_modules/@bubulazi/sound-player/dist/index";
+import "../../node_modules/@bubulazi/timer/dist/index";
+import "../../node_modules/@bubulazi/sound-player/dist/index";
 import * as logo from "../images/TimerPWA-logos_transparent.png";
 
 export class App extends LitElement {
@@ -22,10 +22,9 @@ export class App extends LitElement {
   `;
   connectedCallback() {
     super.connectedCallback();
-    // window.customElements.define("timer-component", TimerComponent);
-    // window.customElements.define("sound-component", SoundComponent);
     window.addEventListener("timer-end", () => {
       this.shadowRoot.querySelector("sound-component").play();
+      console.log("timer-end");
     });
   }
   render() {

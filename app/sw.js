@@ -16,6 +16,7 @@ self.addEventListener("install", function (event) {
         "/assets/estandar_italic.woff2",
         "/assets/estandar.woff2",
         "/assets/handmade.woff2",
+        "/assets/fairy.mp3",
       ]);
     })
   );
