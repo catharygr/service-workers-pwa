@@ -1,6 +1,6 @@
 TimerPWA
 
-TimerPWA es una aplicación web progresiva (PWA) que utiliza componentes web para proporcionar un temporizador con funcionalidad de sonido.
+TimerPWA es una aplicación web progresiva (PWA) que utiliza componentes web para proporcionar un temporizador con funcionalidad de sonido. Esta aplicación también utiliza Service Workers y un archivo manifest.json para proporcionar una experiencia de usuario offline y la capacidad de instalarse en el dispositivo del usuario como una aplicación nativa.
 
 ### Características
 - Temporizador con botones de pausa, reproducción y reinicio.
