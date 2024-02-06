@@ -20,7 +20,13 @@ export class App extends LitElement {
       width: clamp(16em, 90vw, 42rem);
     }
   `;
-
+  connectedCallback() {
+    super.connectedCallback();
+    window.addEventListener("timer-end", () => {
+      this.shadowRoot.querySelector("sound-component").play();
+      console.log("timer-end");
+    });
+  }
   render() {
     return html`
       <main class="main-container">
