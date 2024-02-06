@@ -67,6 +67,7 @@ module.exports = (env, argv) => ({
           },
         ],
       },
+      // Se pone la regla para los archivos json - manifest
       {
         test: /\.(json)$/,
         exclude: /node_modules/,
